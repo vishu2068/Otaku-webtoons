@@ -1,0 +1,35 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+header{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: transparent;
+    padding-top: 50px;
+     display: flex;
+    
+    align-items: center;
+
+}
+
+nav{
+     display: flex;
+     gap : 35px;
+     margin-left: 90px;
+    
+} 
+.logo img{
+    width: 220px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
